@@ -5,8 +5,8 @@ import * as path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/patitas_seguras/",
   plugins: [react()],
-  base: '/patitas_seguras/',
   resolve: {
     alias: [{ find: "@", replacement: path.resolve(__dirname, "src") }],
   },
